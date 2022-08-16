@@ -11,7 +11,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@types/sequelize": "^4.28.14",
     "express": "^4.17.1",
-    "mongoose": "^6.5.1"
+    "mongoose": "^6.5.1",
+    "sequelize": "^6.21.3"
   }
 }
