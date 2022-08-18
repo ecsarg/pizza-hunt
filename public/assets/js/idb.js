@@ -49,7 +49,7 @@ function uploadPizza() {
   
     // get all records from store and set to a variable
     const getAll = pizzaObjectStore.getAll();
-}
+
   
     // upon a successful .getAll() execution, run this function
 getAll.onsuccess = function() {
@@ -82,6 +82,7 @@ getAll.onsuccess = function() {
         });
     }
   };
+}
 
   // listen for app coming back online
 window.addEventListener('online', uploadPizza);
